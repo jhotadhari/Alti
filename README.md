@@ -10,18 +10,18 @@ All symbols/patterns/code are copies of these other themes. Alti doesn't contain
 
 Therefore all credits to them:
 
-- elements theme: Elevate theme family
-https://www.openandromaps.org/kartenlegende/elevation-hike-theme
-by Tobias Kuehn, Contact: http://www.eartrumpet.net/contact/
-licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/
+- elements theme: Elevate theme family<br/>
+https://www.openandromaps.org/kartenlegende/elevation-hike-theme<br/>
+by Tobias Kuehn, Contact: http://www.eartrumpet.net/contact/<br/>
+licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/<br/>
 For commercial usage it is licensed under a Attribution-NoDerivatives 4.0 International License: https://creativecommons.org/licenses/by-nd/4.0/
-- andromaps_hike theme:
-https://www.openandromaps.org/kartenlegende/andromaps_hc
-by Christian Kernbeis / www.openandromaps.org
+- andromaps_hike theme:<br/>
+https://www.openandromaps.org/kartenlegende/andromaps_hc<br/>
+by Christian Kernbeis / www.openandromaps.org<br/>
 licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License: http://creativecommons.org/licenses/by-nc-sa/3.0/
-- Desert theme:
-by Bernard Mai (contact: http://www.maiwolf.de/locus/)
-licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/
+- Desert theme:<br/>
+by Bernard Mai (contact: http://www.maiwolf.de/locus/)<br/>
+licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/<br/>
 For commercial usage it is licensed under a Attribution-NoDerivatives 4.0 International License: https://creativecommons.org/licenses/by-nd/4.0/
 
 ## License:
