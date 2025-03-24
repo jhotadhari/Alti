@@ -23,11 +23,11 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 <rendertheme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" map-background="#F8F8F8"
     map-background-outside="#EEEEEE" version="5" xmlns="http://mapsforge.org/renderTheme"
     xsi:schemaLocation="http://mapsforge.org/renderTheme https://raw.githubusercontent.com/mapsforge/mapsforge/master/resources/renderTheme.xsd">
-    
-<stylemenu id="elmt-menu" defaultvalue="elmt-hiking" defaultlang="en">
+
+<stylemenu id="alti-menu" defaultvalue="alti-hiking" defaultlang="en">
 
 	<!-- overlays special -->
-	<layer id="elmt-h_routes" enabled="true">
+	<layer id="alti-h_routes" enabled="true">
 		<name lang="de" value="[R] Wanderrouten" />
 		<name lang="en" value="[R] Hiking routes" />
 		<name lang="es" value="[R] Rutas excursiones" />
@@ -36,7 +36,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="h_routes" />
 		<cat id="other_refs" />
 	</layer>
-	<layer id="elmt-h_s_routes" enabled="false">
+	<layer id="alti-h_s_routes" enabled="false">
 		<name lang="de" value="[R] Betonte Routen" />
 		<name lang="en" value="[R] Emphasized routes" />
 		<name lang="es" value="[R] Rutas resaltadas" />
@@ -45,7 +45,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="h_s_routes" />
 		<cat id="other_refs" />
 	</layer>
-	<layer id="elmt-waymarks" enabled="false">
+	<layer id="alti-waymarks" enabled="false">
 		<name lang="de" value="[R] Wegzeichen" />
 		<name lang="en" value="[R] Waymarks" />
 		<name lang="es" value="[R] Balizas" />
@@ -53,7 +53,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[R] Segnavia" />
 		<cat id="waymarks" />
 	</layer>
-	<layer id="elmt-pt_network" enabled="false">
+	<layer id="alti-pt_network" enabled="false">
 		<name lang="de" value="[R] Öffentl. Verkehr Netzwerk" />
 		<name lang="en" value="[R] Public transport network" />
 		<name lang="es" value="[R] Red de transporte público" />
@@ -62,7 +62,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="pt_network" />
 		<cat id="aerway" />
 	</layer>
-	<layer id="elmt-contour-c" enabled="false">
+	<layer id="alti-contour-c" enabled="false">
 		<name lang="de" value="[A] Höhenlinien" />
 		<name lang="en" value="[A] Contour lines" />
 		<name lang="es" value="[A] Curvas de nivel" />
@@ -71,7 +71,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="contour" />
 		<cat id="flat" />
 	</layer>
-	<layer id="elmt-smallways" enabled="true">
+	<layer id="alti-smallways" enabled="true">
 		<name lang="de" value="[W] Pfade + Wirtschaftswege" />
 		<name lang="en" value="[W] Paths + tracks" />
 		<name lang="es" value="[W] Senderos + caminos" />
@@ -79,7 +79,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[W] Sentieri + strade forestali" />
 		<cat id="smallways" />
 	</layer>
-	<layer id="elmt-c_routes" enabled="true">
+	<layer id="alti-c_routes" enabled="true">
 		<name lang="de" value="[R] Fahrradrouten" />
 		<name lang="en" value="[R] Cycling routes" />
 		<name lang="es" value="[R] Rutas en bici" />
@@ -88,7 +88,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="c_routes" />
 		<cat id="other_refs" />
 	</layer>
-	<layer id="elmt-c_s_routes" enabled="false">
+	<layer id="alti-c_s_routes" enabled="false">
 		<name lang="de" value="[R] Betonte Routen" />
 		<name lang="en" value="[R] Emphasized routes" />
 		<name lang="es" value="[R] Rutas resaltadas" />
@@ -97,7 +97,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="c_s_routes" />
 		<cat id="other_refs" />
 	</layer>
-	<layer id="elmt-mtbs_tracks" enabled="true">
+	<layer id="alti-mtbs_tracks" enabled="true">
 		<name lang="de" value="[W] MTB-Scale auf Straßen" />
 		<name lang="en" value="[W] MTB-scale on roads" />
 		<name lang="es" value="[W] MTB-scale en las calles" />
@@ -105,7 +105,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[W] MTB-scale sulle strade" />
 		<cat id="mtbs-tracks" />
 	</layer>
-	<layer id="elmt-mtb_sac_T1" enabled="false">
+	<layer id="alti-mtb_sac_T1" enabled="false">
 		<name lang="de" value="[W] Markierung leichter Wanderwege" />
 		<name lang="en" value="[W] Marking of easy hiking paths" />
 		<name lang="es" value="[W] Marcado de los senderos fáciles" />
@@ -113,7 +113,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[W] Marca sentieri escursionistici facili" />
 		<cat id="mtb_sac_T1" />
 	</layer>
-	<layer id="elmt-mtb_routes" enabled="true">
+	<layer id="alti-mtb_routes" enabled="true">
 		<name lang="de" value="[R] Mountainbike Routen" />
 		<name lang="en" value="[R] Mountain bike routes" />
 		<name lang="es" value="[R] Rutas en BTT" />
@@ -121,7 +121,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[R] Itinerari mountain bike" />
 		<cat id="mtb_routes" />
 	</layer>
-	<layer id="elmt-mtb_c_routes" enabled="false">
+	<layer id="alti-mtb_c_routes" enabled="false">
 		<name lang="de" value="[R] Fahrradrouten" />
 		<name lang="en" value="[R] Cycling routes" />
 		<name lang="es" value="[R] Rutas en bici" />
@@ -130,7 +130,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="c_routes" />
 		<cat id="other_refs" />
 	</layer>
-	<layer id="elmt-mtb_s_routes" enabled="false">
+	<layer id="alti-mtb_s_routes" enabled="false">
 		<name lang="de" value="[R] Betonte Routen" />
 		<name lang="en" value="[R] Emphasized routes" />
 		<name lang="es" value="[R] Rutas resaltadas" />
@@ -141,7 +141,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 	</layer>
 
 	<!-- overlays base -->
-	<layer id="elmt-background-h" enabled="true">
+	<layer id="alti-background-h" enabled="true">
 		<name lang="de" value="[A] Kartenhintergrund" />
 		<name lang="en" value="[A] Map background" />
 		<name lang="es" value="[A] Fondo del mapa" />
@@ -150,7 +150,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="background" />
 		<cat id="background-city" />
 	</layer>
-	<layer id="elmt-background-c" enabled="true">
+	<layer id="alti-background-c" enabled="true">
 		<name lang="de" value="[A] Kartenhintergrund" />
 		<name lang="en" value="[A] Map background" />
 		<name lang="es" value="[A] Fondo del mapa" />
@@ -158,7 +158,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[A] Sfondo della mappa" />
 		<cat id="background" />
 	</layer>
-	<layer id="elmt-background-b" enabled="true">
+	<layer id="alti-background-b" enabled="true">
 		<name lang="de" value="[A] Kartenhintergrund" />
 		<name lang="en" value="[A] Map background" />
 		<name lang="es" value="[A] Fondo del mapa" />
@@ -167,7 +167,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="background" />
 		<cat id="background-city" />
 	</layer>
-	<layer id="elmt-background-m" enabled="true">
+	<layer id="alti-background-m" enabled="true">
 		<name lang="de" value="[A] Kartenhintergrund" />
 		<name lang="en" value="[A] Map background" />
 		<name lang="es" value="[A] Fondo del mapa" />
@@ -177,7 +177,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="background-city" />
 	</layer>
 
-	<layer id="elmt-road_surfaces-h" enabled="false">
+	<layer id="alti-road_surfaces-h" enabled="false">
 		<name lang="de" value="[W] Erweiterte Straßenoberflächen" />
 		<name lang="en" value="[W] Extended road surfaces" />
 		<name lang="es" value="[W] Superficies de carretera extendidas" />
@@ -185,7 +185,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[W] Pavimentazione stradale estesa" />
 		<cat id="road_surfaces" />
 	</layer>
-	<layer id="elmt-road_surfaces-b" enabled="false">
+	<layer id="alti-road_surfaces-b" enabled="false">
 		<name lang="de" value="[W] Erweiterte Straßenoberflächen" />
 		<name lang="en" value="[W] Extended road surfaces" />
 		<name lang="es" value="[W] Superficies de carretera extendidas" />
@@ -193,7 +193,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[W] Pavimentazione stradale estesa" />
 		<cat id="road_surfaces" />
 	</layer>
-	<layer id="elmt-road_surfaces-m" enabled="false">
+	<layer id="alti-road_surfaces-m" enabled="false">
 		<name lang="de" value="[W] Erweiterte Straßenoberflächen" />
 		<name lang="en" value="[W] Extended road surfaces" />
 		<name lang="es" value="[W] Superficies de carretera extendidas" />
@@ -202,7 +202,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="road_surfaces" />
 	</layer>
 
-	<layer id="elmt-cw_ext-b" enabled="true">
+	<layer id="alti-cw_ext-b" enabled="true">
 		<name lang="de" value="[W] Zeige Radfahren erlaubt wie Radwege an" />
 		<name lang="en" value="[W] Show cycling permitted like cycle ways" />
 		<name lang="es" value="[W] Representan ciclismo permitido como caminos para bicicletas" />
@@ -211,7 +211,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="cw_ext" />
 	</layer>
 
-	<layer id="elmt-acc_allowed-h" enabled="false">
+	<layer id="alti-acc_allowed-h" enabled="false">
 		<name lang="de" value="[W] Markierung erlaubter Fußwege" />
 		<name lang="en" value="[W] Marking of permitted footways" />
 		<name lang="es" value="[W] Marcado de los caminos peatonales permitidos" />
@@ -219,7 +219,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[W] Marca i percorsi permessi ai pedoni" />
 		<cat id="acc_allowed" />
 	</layer>
-	<layer id="elmt-acc_allowed-b" enabled="false">
+	<layer id="alti-acc_allowed-b" enabled="false">
 		<name lang="de" value="[W] Markierung von Wegen mit Radfahren erlaubt" />
 		<name lang="en" value="[W] Marking of paths with cycling permitted" />
 		<name lang="es" value="[W] Marcado de los carriles bici permitidos" />
@@ -227,7 +227,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[W] Marca i percorsi permessi alle bici" />
 		<cat id="acc_allowed" />
 	</layer>
-	<layer id="elmt-acc_allowed-m" enabled="false">
+	<layer id="alti-acc_allowed-m" enabled="false">
 		<name lang="de" value="[W] Markierung von Wegen mit Radfahren erlaubt" />
 		<name lang="en" value="[W] Marking of paths with cycling permitted" />
 		<name lang="es" value="[W] Marcado de los carriles bici permitidos" />
@@ -236,7 +236,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="acc_allowed" />
 	</layer>
 
-	<layer id="elmt-paved_emph-b" enabled="false">
+	<layer id="alti-paved_emph-b" enabled="false">
 		<name lang="de" value="[W] Betonte gepflasterte Radwege" />
 		<name lang="en" value="[W] Emphasized paved cycle ways" />
 		<name lang="es" value="[W] Acentuar los senderos para bicicletas pavimentados" />
@@ -244,7 +244,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[W] Accentua le piste ciclabili pavimentate" />
 		<cat id="paved_emph" />
 	</layer>
-	<layer id="elmt-paved_emph-c" enabled="false">
+	<layer id="alti-paved_emph-c" enabled="false">
 		<name lang="de" value="[W] Betonte gepflasterte Fußwege" />
 		<name lang="en" value="[W] Emphasized paved footways" />
 		<name lang="es" value="[W] Acentuar caminos peatonales pavimentados" />
@@ -253,7 +253,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="paved_emph" />
 	</layer>
 
-	<layer id="elmt-settlements-h" enabled="true">
+	<layer id="alti-settlements-h" enabled="true">
 		<name lang="de" value="[P] Ortsnamen" />
 		<name lang="en" value="[P] Settlement names" />
 		<name lang="es" value="[P] Toponimia" />
@@ -261,7 +261,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Toponimi" />
 		<cat id="settlements" />
 	</layer>
-	<layer id="elmt-settlements-c" enabled="true">
+	<layer id="alti-settlements-c" enabled="true">
 		<name lang="de" value="[P] Ortsnamen" />
 		<name lang="en" value="[P] Settlement names" />
 		<name lang="es" value="[P] Toponimia" />
@@ -269,7 +269,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Toponimi" />
 		<cat id="settlements" />
 	</layer>
-	<layer id="elmt-settlements-b" enabled="true">
+	<layer id="alti-settlements-b" enabled="true">
 		<name lang="de" value="[P] Ortsnamen" />
 		<name lang="en" value="[P] Settlement names" />
 		<name lang="es" value="[P] Toponimia" />
@@ -277,7 +277,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Toponimi" />
 		<cat id="settlements" />
 	</layer>
-	<layer id="elmt-settlements-m" enabled="true">
+	<layer id="alti-settlements-m" enabled="true">
 		<name lang="de" value="[P] Ortsnamen" />
 		<name lang="en" value="[P] Settlement names" />
 		<name lang="es" value="[P] Toponimia" />
@@ -286,7 +286,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="settlements" />
 	</layer>
 
-	<layer id="elmt-landscapefeat-h" enabled="true">
+	<layer id="alti-landscapefeat-h" enabled="true">
 		<name lang="de" value="[P] Landschaftsmerkmale" />
 		<name lang="en" value="[P] Landscape features" />
 		<name lang="es" value="[P] Características del paisaje" />
@@ -295,7 +295,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="landscapefeat" />
 		<cat id="landscapename" />
 	</layer>
-	<layer id="elmt-landscapefeat-c" enabled="true">
+	<layer id="alti-landscapefeat-c" enabled="true">
 		<name lang="de" value="[P] Landschaftsnamen" />
 		<name lang="en" value="[P] Landscape names" />
 		<name lang="es" value="[P] Nombres de paisajes" />
@@ -303,7 +303,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Nomi caratteristiche del paesaggio" />
 		<cat id="landscapename" />
 	</layer>
-	<layer id="elmt-landscapefeat-b" enabled="true">
+	<layer id="alti-landscapefeat-b" enabled="true">
 		<name lang="de" value="[P] Landschaftsmerkmale" />
 		<name lang="en" value="[P] Landscape features" />
 		<name lang="es" value="[P] Características del paisaje" />
@@ -312,7 +312,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="landscapefeat" />
 		<cat id="landscapename" />
 	</layer>
-	<layer id="elmt-landscapefeat-m" enabled="true">
+	<layer id="alti-landscapefeat-m" enabled="true">
 		<name lang="de" value="[P] Landschaftsmerkmale" />
 		<name lang="en" value="[P] Landscape features" />
 		<name lang="es" value="[P] Características del paisaje" />
@@ -322,7 +322,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="landscapename" />
 	</layer>
 
-	<layer id="elmt-borders-h" enabled="true">
+	<layer id="alti-borders-h" enabled="true">
 		<name lang="de" value="[A] Grenzen + besondere Gebiete" />
 		<name lang="en" value="[A] Borders + special areas" />
 		<name lang="es" value="[A] Fronteras y zonas especiales" />
@@ -330,7 +330,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[A] Confini e zone speciali" />
 		<cat id="borders" />
 	</layer>
-	<layer id="elmt-borders-c" enabled="true">
+	<layer id="alti-borders-c" enabled="true">
 		<name lang="de" value="[A] Grenzen + besondere Gebiete" />
 		<name lang="en" value="[A] Borders + special areas" />
 		<name lang="es" value="[A] Fronteras y zonas especiales" />
@@ -338,7 +338,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[A] Confini e zone speciali" />
 		<cat id="borders" />
 	</layer>
-	<layer id="elmt-borders-b" enabled="true">
+	<layer id="alti-borders-b" enabled="true">
 		<name lang="de" value="[A] Grenzen + besondere Gebiete" />
 		<name lang="en" value="[A] Borders + special areas" />
 		<name lang="es" value="[A] Fronteras y zonas especiales" />
@@ -346,7 +346,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[A] Confini e zone speciali" />
 		<cat id="borders" />
 	</layer>
-	<layer id="elmt-borders-m" enabled="true">
+	<layer id="alti-borders-m" enabled="true">
 		<name lang="de" value="[A] Grenzen + besondere Gebiete" />
 		<name lang="en" value="[A] Borders + special areas" />
 		<name lang="es" value="[A] Fronteras y zonas especiales" />
@@ -355,7 +355,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="borders" />
 	</layer>
 
-	<layer id="elmt-sports-h" enabled="true">
+	<layer id="alti-sports-h" enabled="true">
 		<name lang="de" value="[P] Sport" />
 		<name lang="en" value="[P] Sports" />
 		<name lang="es" value="[P] Deporte" />
@@ -364,7 +364,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="sports" />
 		<cat id="sled" />
 	</layer>
-	<layer id="elmt-sports-c" enabled="false">
+	<layer id="alti-sports-c" enabled="false">
 		<name lang="de" value="[P] Sport" />
 		<name lang="en" value="[P] Sports" />
 		<name lang="es" value="[P] Deporte" />
@@ -373,7 +373,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="sports" />
 		<cat id="sled" />
 	</layer>
-	<layer id="elmt-sports-b" enabled="true">
+	<layer id="alti-sports-b" enabled="true">
 		<name lang="de" value="[P] Sport" />
 		<name lang="en" value="[P] Sports" />
 		<name lang="es" value="[P] Deporte" />
@@ -381,7 +381,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Sport" />
 		<cat id="sports" />
 	</layer>
-	<layer id="elmt-sports-m" enabled="true">
+	<layer id="alti-sports-m" enabled="true">
 		<name lang="de" value="[P] Sport" />
 		<name lang="en" value="[P] Sports" />
 		<name lang="es" value="[P] Deporte" />
@@ -390,7 +390,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="sports" />
 	</layer>
 
-	<layer id="elmt-emergency-h" enabled="false">
+	<layer id="alti-emergency-h" enabled="false">
 		<name lang="de" value="[P] Notfall" />
 		<name lang="en" value="[P] Emergency" />
 		<name lang="es" value="[P] Emergencia" />
@@ -398,7 +398,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Emergenza" />
 		<cat id="emergency" />
 	</layer>
-	<layer id="elmt-emergency-c" enabled="false">
+	<layer id="alti-emergency-c" enabled="false">
 		<name lang="de" value="[P] Notfall" />
 		<name lang="en" value="[P] Emergency" />
 		<name lang="es" value="[P] Emergencia" />
@@ -406,7 +406,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Emergenza" />
 		<cat id="emergency" />
 	</layer>
-	<layer id="elmt-emergency-b" enabled="false">
+	<layer id="alti-emergency-b" enabled="false">
 		<name lang="de" value="[P] Notfall" />
 		<name lang="en" value="[P] Emergency" />
 		<name lang="es" value="[P] Emergencia" />
@@ -414,7 +414,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Emergenza" />
 		<cat id="emergency" />
 	</layer>
-	<layer id="elmt-emergency-m" enabled="false">
+	<layer id="alti-emergency-m" enabled="false">
 		<name lang="de" value="[P] Notfall" />
 		<name lang="en" value="[P] Emergency" />
 		<name lang="es" value="[P] Emergencia" />
@@ -423,7 +423,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="emergency" />
 	</layer>
 
-	<layer id="elmt-amenities-h" enabled="true">
+	<layer id="alti-amenities-h" enabled="true">
 		<name lang="de" value="[P] Einrichtungen" />
 		<name lang="en" value="[P] Amenities" />
 		<name lang="es" value="[P] Comodidades" />
@@ -431,7 +431,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Servizi" />
 		<cat id="amenities" />
 	</layer>
-	<layer id="elmt-amenities-c" enabled="true">
+	<layer id="alti-amenities-c" enabled="true">
 		<name lang="de" value="[P] Einrichtungen" />
 		<name lang="en" value="[P] Amenities" />
 		<name lang="es" value="[P] Comodidades" />
@@ -439,7 +439,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Servizi" />
 		<cat id="amenities" />
 	</layer>
-	<layer id="elmt-amenities-b" enabled="true">
+	<layer id="alti-amenities-b" enabled="true">
 		<name lang="de" value="[P] Einrichtungen" />
 		<name lang="en" value="[P] Amenities" />
 		<name lang="es" value="[P] Comodidades" />
@@ -447,7 +447,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Servizi" />
 		<cat id="amenities" />
 	</layer>
-	<layer id="elmt-amenities-m" enabled="true">
+	<layer id="alti-amenities-m" enabled="true">
 		<name lang="de" value="[P] Einrichtungen" />
 		<name lang="en" value="[P] Amenities" />
 		<name lang="es" value="[P] Comodidades" />
@@ -456,7 +456,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="amenities" />
 	</layer>
 
-	<layer id="elmt-accommodation-h" enabled="true">
+	<layer id="alti-accommodation-h" enabled="true">
 		<name lang="de" value="[P] Unterkünfte" />
 		<name lang="en" value="[P] Accommodation" />
 		<name lang="es" value="[P] Alojamiento" />
@@ -464,7 +464,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Alloggi" />
 		<cat id="accommodation" />
 	</layer>
-	<layer id="elmt-accommodation-c" enabled="false">
+	<layer id="alti-accommodation-c" enabled="false">
 		<name lang="de" value="[P] Unterkünfte" />
 		<name lang="en" value="[P] Accommodation" />
 		<name lang="es" value="[P] Alojamiento" />
@@ -472,7 +472,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Alloggi" />
 		<cat id="accommodation" />
 	</layer>
-	<layer id="elmt-accommodation-b" enabled="false">
+	<layer id="alti-accommodation-b" enabled="false">
 		<name lang="de" value="[P] Unterkünfte" />
 		<name lang="en" value="[P] Accommodation" />
 		<name lang="es" value="[P] Alojamiento" />
@@ -480,7 +480,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Alloggi" />
 		<cat id="accommodation" />
 	</layer>
-	<layer id="elmt-accommodation-m" enabled="true">
+	<layer id="alti-accommodation-m" enabled="true">
 		<name lang="de" value="[P] Unterkünfte" />
 		<name lang="en" value="[P] Accommodation" />
 		<name lang="es" value="[P] Alojamiento" />
@@ -489,7 +489,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="accommodation" />
 	</layer>
 
-	<layer id="elmt-restaurants-h" enabled="true">
+	<layer id="alti-restaurants-h" enabled="true">
 		<name lang="de" value="[P] Restaurants + Bars" />
 		<name lang="en" value="[P] Restaurants + bars" />
 		<name lang="es" value="[P] Restaurantes y bares" />
@@ -497,7 +497,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Ristoranti e bar" />
 		<cat id="restaurants" />
 	</layer>
-	<layer id="elmt-restaurants-c" enabled="true">
+	<layer id="alti-restaurants-c" enabled="true">
 		<name lang="de" value="[P] Restaurants + Bars" />
 		<name lang="en" value="[P] Restaurants + bars" />
 		<name lang="es" value="[P] Restaurantes y bares" />
@@ -505,7 +505,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Ristoranti e bar" />
 		<cat id="restaurants" />
 	</layer>
-	<layer id="elmt-restaurants-b" enabled="true">
+	<layer id="alti-restaurants-b" enabled="true">
 		<name lang="de" value="[P] Restaurants + Bars" />
 		<name lang="en" value="[P] Restaurants + bars" />
 		<name lang="es" value="[P] Restaurantes y bares" />
@@ -513,7 +513,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Ristoranti e bar" />
 		<cat id="restaurants" />
 	</layer>
-	<layer id="elmt-restaurants-m" enabled="true">
+	<layer id="alti-restaurants-m" enabled="true">
 		<name lang="de" value="[P] Restaurants + Bars" />
 		<name lang="en" value="[P] Restaurants + bars" />
 		<name lang="es" value="[P] Restaurantes y bares" />
@@ -522,7 +522,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="restaurants" />
 	</layer>
 
-	<layer id="elmt-shops-h" enabled="false">
+	<layer id="alti-shops-h" enabled="false">
 		<name lang="de" value="[P] Geschäfte + Dienstleistungen" />
 		<name lang="en" value="[P] Shops + services" />
 		<name lang="es" value="[P] Comercios y servicios" />
@@ -530,7 +530,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Negozi e servizi" />
 		<cat id="shops" />
 	</layer>
-	<layer id="elmt-shops-c" enabled="true">
+	<layer id="alti-shops-c" enabled="true">
 		<name lang="de" value="[P] Geschäfte + Dienstleistungen" />
 		<name lang="en" value="[P] Shops + services" />
 		<name lang="es" value="[P] Comercios y servicios" />
@@ -538,7 +538,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Negozi e servizi" />
 		<cat id="shops" />
 	</layer>
-	<layer id="elmt-shops-b" enabled="false">
+	<layer id="alti-shops-b" enabled="false">
 		<name lang="de" value="[P] Geschäfte + Dienstleistungen" />
 		<name lang="en" value="[P] Shops + services" />
 		<name lang="es" value="[P] Comercios y servicios" />
@@ -546,7 +546,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Negozi e servizi" />
 		<cat id="shops" />
 	</layer>
-	<layer id="elmt-shops-m" enabled="false">
+	<layer id="alti-shops-m" enabled="false">
 		<name lang="de" value="[P] Geschäfte + Dienstleistungen" />
 		<name lang="en" value="[P] Shops + services" />
 		<name lang="es" value="[P] Comercios y servicios" />
@@ -555,7 +555,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="shops" />
 	</layer>
 
-	<layer id="elmt-tourism-h" enabled="true">
+	<layer id="alti-tourism-h" enabled="true">
 		<name lang="de" value="[P] Tourismus + Kultur" />
 		<name lang="en" value="[P] Tourism + culture" />
 		<name lang="es" value="[P] Turismo y cultura" />
@@ -563,7 +563,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Turismo e cultura" />
 		<cat id="tourism" />
 	</layer>
-	<layer id="elmt-tourism-c" enabled="true">
+	<layer id="alti-tourism-c" enabled="true">
 		<name lang="de" value="[P] Tourismus + Kultur" />
 		<name lang="en" value="[P] Tourism + culture" />
 		<name lang="es" value="[P] Turismo y cultura" />
@@ -571,7 +571,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Turismo e cultura" />
 		<cat id="tourism" />
 	</layer>
-	<layer id="elmt-tourism-b" enabled="false">
+	<layer id="alti-tourism-b" enabled="false">
 		<name lang="de" value="[P] Tourismus + Kultur" />
 		<name lang="en" value="[P] Tourism + culture" />
 		<name lang="es" value="[P] Turismo y cultura" />
@@ -579,7 +579,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Turismo e cultura" />
 		<cat id="tourism" />
 	</layer>
-	<layer id="elmt-tourism-m" enabled="false">
+	<layer id="alti-tourism-m" enabled="false">
 		<name lang="de" value="[P] Tourismus + Kultur" />
 		<name lang="en" value="[P] Tourism + culture" />
 		<name lang="es" value="[P] Turismo y cultura" />
@@ -588,7 +588,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="tourism" />
 	</layer>
 
-	<layer id="elmt-pubtrans-h" enabled="true">
+	<layer id="alti-pubtrans-h" enabled="true">
 		<name lang="de" value="[P] Öffentlicher Verkehr" />
 		<name lang="en" value="[P] Public transport" />
 		<name lang="es" value="[P] Transporte público" />
@@ -597,7 +597,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="pubtrans" />
 		<cat id="aerway" />
 	</layer>
-	<layer id="elmt-pubtrans-c" enabled="true">
+	<layer id="alti-pubtrans-c" enabled="true">
 		<name lang="de" value="[P] Öffentlicher Verkehr" />
 		<name lang="en" value="[P] Public transport" />
 		<name lang="es" value="[P] Transporte público" />
@@ -606,7 +606,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="pubtrans" />
 		<cat id="aerway" />
 	</layer>
-	<layer id="elmt-pubtrans-b" enabled="false">
+	<layer id="alti-pubtrans-b" enabled="false">
 		<name lang="de" value="[P] Öffentlicher Verkehr" />
 		<name lang="en" value="[P] Public transport" />
 		<name lang="es" value="[P] Transporte público" />
@@ -615,7 +615,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="pubtrans" />
 		<cat id="aerway" />
 	</layer>
-	<layer id="elmt-pubtrans-m" enabled="false">
+	<layer id="alti-pubtrans-m" enabled="false">
 		<name lang="de" value="[P] Öffentlicher Verkehr" />
 		<name lang="en" value="[P] Public transport" />
 		<name lang="es" value="[P] Transporte público" />
@@ -625,7 +625,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="aerway" />
 	</layer>
 
-	<layer id="elmt-car-h" enabled="true">
+	<layer id="alti-car-h" enabled="true">
 		<name lang="de" value="[P] Auto" />
 		<name lang="en" value="[P] Car" />
 		<name lang="es" value="[P] Coche" />
@@ -634,7 +634,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="car" />
 		<cat id="toll" />
 	</layer>
-	<layer id="elmt-car-c" enabled="false">
+	<layer id="alti-car-c" enabled="false">
 		<name lang="de" value="[P] Auto" />
 		<name lang="en" value="[P] Car" />
 		<name lang="es" value="[P] Coche" />
@@ -643,7 +643,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="car" />
 		<cat id="toll" />
 	</layer>
-	<layer id="elmt-car-b" enabled="false">
+	<layer id="alti-car-b" enabled="false">
 		<name lang="de" value="[P] Auto" />
 		<name lang="en" value="[P] Car" />
 		<name lang="es" value="[P] Coche" />
@@ -652,7 +652,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="car" />
 		<cat id="toll" />
 	</layer>
-	<layer id="elmt-car-m" enabled="false">
+	<layer id="alti-car-m" enabled="false">
 		<name lang="de" value="[P] Auto" />
 		<name lang="en" value="[P] Car" />
 		<name lang="es" value="[P] Coche" />
@@ -662,7 +662,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="toll" />
 	</layer>
 
-	<layer id="elmt-barriers-h" enabled="true">
+	<layer id="alti-barriers-h" enabled="true">
 		<name lang="de" value="[P] Barrieren" />
 		<name lang="en" value="[P] Barriers" />
 		<name lang="es" value="[P] Barreras" />
@@ -670,7 +670,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Barriere" />
 		<cat id="barriers" />
 	</layer>
-	<layer id="elmt-barriers-c" enabled="true">
+	<layer id="alti-barriers-c" enabled="true">
 		<name lang="de" value="[P] Barrieren" />
 		<name lang="en" value="[P] Barriers" />
 		<name lang="es" value="[P] Barreras" />
@@ -678,7 +678,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Barriere" />
 		<cat id="barriers" />
 	</layer>
-	<layer id="elmt-barriers-b" enabled="true">
+	<layer id="alti-barriers-b" enabled="true">
 		<name lang="de" value="[P] Barrieren" />
 		<name lang="en" value="[P] Barriers" />
 		<name lang="es" value="[P] Barreras" />
@@ -686,7 +686,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Barriere" />
 		<cat id="barriers" />
 	</layer>
-	<layer id="elmt-barriers-m" enabled="true">
+	<layer id="alti-barriers-m" enabled="true">
 		<name lang="de" value="[P] Barrieren" />
 		<name lang="en" value="[P] Barriers" />
 		<name lang="es" value="[P] Barreras" />
@@ -695,7 +695,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="barriers" />
 	</layer>
 
-	<layer id="elmt-buildings-h" enabled="false">
+	<layer id="alti-buildings-h" enabled="false">
 		<name lang="de" value="[P] Besondere Gebäude" />
 		<name lang="en" value="[P] Special buildings" />
 		<name lang="es" value="[P] Edificios especiales" />
@@ -703,7 +703,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Altri edifici" />
 		<cat id="buildings" />
 	</layer>
-	<layer id="elmt-buildings-c" enabled="false">
+	<layer id="alti-buildings-c" enabled="false">
 		<name lang="de" value="[P] Besondere Gebäude" />
 		<name lang="en" value="[P] Special buildings" />
 		<name lang="es" value="[P] Edificios especiales" />
@@ -711,7 +711,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Altri edifici" />
 		<cat id="buildings" />
 	</layer>
-	<layer id="elmt-buildings-b" enabled="false">
+	<layer id="alti-buildings-b" enabled="false">
 		<name lang="de" value="[P] Besondere Gebäude" />
 		<name lang="en" value="[P] Special buildings" />
 		<name lang="es" value="[P] Edificios especiales" />
@@ -719,7 +719,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<name lang="it" value="[P] Altri edifici" />
 		<cat id="buildings" />
 	</layer>
-	<layer id="elmt-buildings-m" enabled="false">
+	<layer id="alti-buildings-m" enabled="false">
 		<name lang="de" value="[P] Besondere Gebäude" />
 		<name lang="en" value="[P] Special buildings" />
 		<name lang="es" value="[P] Edificios especiales" />
@@ -729,7 +729,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 	</layer>
 
 	<!-- mapstyles -->
-	<layer id="elmt-hiking" visible="true">
+	<layer id="alti-hiking" visible="true">
 		<name lang="de" value="Wandern" />
 		<name lang="en" value="Hiking" />
 		<name lang="es" value="Excursionismo" />
@@ -742,28 +742,28 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="contour" />
 		<cat id="mountains" />
 		<cat id="smallways" />
-		<overlay id="elmt-h_routes" />
-		<overlay id="elmt-h_s_routes" />
-		<overlay id="elmt-waymarks" />
-		<overlay id="elmt-road_surfaces-h" />
-		<overlay id="elmt-acc_allowed-h" />
-		<overlay id="elmt-settlements-h" />
-		<overlay id="elmt-landscapefeat-h" />
-		<overlay id="elmt-amenities-h" />
-		<overlay id="elmt-barriers-h" />
-		<overlay id="elmt-sports-h" />
-		<overlay id="elmt-emergency-h" />
-		<overlay id="elmt-accommodation-h" />
-		<overlay id="elmt-restaurants-h" />
-		<overlay id="elmt-shops-h" />
-		<overlay id="elmt-tourism-h" />
-		<overlay id="elmt-pubtrans-h" />
-		<overlay id="elmt-car-h" />
-		<overlay id="elmt-buildings-h" />
-		<overlay id="elmt-borders-h" />
-		<overlay id="elmt-background-h" />
+		<overlay id="alti-h_routes" />
+		<overlay id="alti-h_s_routes" />
+		<overlay id="alti-waymarks" />
+		<overlay id="alti-road_surfaces-h" />
+		<overlay id="alti-acc_allowed-h" />
+		<overlay id="alti-settlements-h" />
+		<overlay id="alti-landscapefeat-h" />
+		<overlay id="alti-amenities-h" />
+		<overlay id="alti-barriers-h" />
+		<overlay id="alti-sports-h" />
+		<overlay id="alti-emergency-h" />
+		<overlay id="alti-accommodation-h" />
+		<overlay id="alti-restaurants-h" />
+		<overlay id="alti-shops-h" />
+		<overlay id="alti-tourism-h" />
+		<overlay id="alti-pubtrans-h" />
+		<overlay id="alti-car-h" />
+		<overlay id="alti-buildings-h" />
+		<overlay id="alti-borders-h" />
+		<overlay id="alti-background-h" />
 	</layer>
-	<layer id="elmt-city" visible="true">
+	<layer id="alti-city" visible="true">
 		<name lang="de" value="Stadt" />
 		<name lang="en" value="City" />
 		<name lang="es" value="Ciudad" />
@@ -774,27 +774,27 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="nobike" />
 		<cat id="nomtb" />
 		<cat id="background-city" />
-		<overlay id="elmt-pt_network" />
-		<overlay id="elmt-smallways" />
-		<overlay id="elmt-paved_emph-c" />
-		<overlay id="elmt-settlements-c" />
-		<overlay id="elmt-landscapefeat-c" />
-		<overlay id="elmt-amenities-c" />
-		<overlay id="elmt-barriers-c" />
-		<overlay id="elmt-sports-c" />
-		<overlay id="elmt-emergency-c" />
-		<overlay id="elmt-accommodation-c" />
-		<overlay id="elmt-restaurants-c" />
-		<overlay id="elmt-shops-c" />
-		<overlay id="elmt-tourism-c" />
-		<overlay id="elmt-pubtrans-c" />
-		<overlay id="elmt-car-c" />
-		<overlay id="elmt-buildings-c" />
-		<overlay id="elmt-borders-c" />
-		<overlay id="elmt-contour-c" />
-		<overlay id="elmt-background-c" />
+		<overlay id="alti-pt_network" />
+		<overlay id="alti-smallways" />
+		<overlay id="alti-paved_emph-c" />
+		<overlay id="alti-settlements-c" />
+		<overlay id="alti-landscapefeat-c" />
+		<overlay id="alti-amenities-c" />
+		<overlay id="alti-barriers-c" />
+		<overlay id="alti-sports-c" />
+		<overlay id="alti-emergency-c" />
+		<overlay id="alti-accommodation-c" />
+		<overlay id="alti-restaurants-c" />
+		<overlay id="alti-shops-c" />
+		<overlay id="alti-tourism-c" />
+		<overlay id="alti-pubtrans-c" />
+		<overlay id="alti-car-c" />
+		<overlay id="alti-buildings-c" />
+		<overlay id="alti-borders-c" />
+		<overlay id="alti-contour-c" />
+		<overlay id="alti-background-c" />
 	</layer>
-	<layer id="elmt-cycling" visible="true">
+	<layer id="alti-cycling" visible="true">
 		<name lang="de" value="Radfahren" />
 		<name lang="en" value="Cycling" />
 		<name lang="es" value="Ciclismo" />
@@ -809,29 +809,29 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="flat" />
 		<cat id="toll" />
 		<cat id="smallways" />
-		<overlay id="elmt-c_routes" />
-		<overlay id="elmt-c_s_routes" />
-		<overlay id="elmt-cw_ext-b" />
-		<overlay id="elmt-acc_allowed-b" />
-		<overlay id="elmt-road_surfaces-b" />
-		<overlay id="elmt-paved_emph-b" />
-		<overlay id="elmt-settlements-b" />
-		<overlay id="elmt-landscapefeat-b" />
-		<overlay id="elmt-amenities-b" />
-		<overlay id="elmt-barriers-b" />
-		<overlay id="elmt-sports-b" />
-		<overlay id="elmt-emergency-b" />
-		<overlay id="elmt-accommodation-b" />
-		<overlay id="elmt-restaurants-b" />
-		<overlay id="elmt-shops-b" />
-		<overlay id="elmt-tourism-b" />
-		<overlay id="elmt-pubtrans-b" />
-		<overlay id="elmt-car-b" />
-		<overlay id="elmt-buildings-b" />
-		<overlay id="elmt-borders-b" />
-		<overlay id="elmt-background-b" />
+		<overlay id="alti-c_routes" />
+		<overlay id="alti-c_s_routes" />
+		<overlay id="alti-cw_ext-b" />
+		<overlay id="alti-acc_allowed-b" />
+		<overlay id="alti-road_surfaces-b" />
+		<overlay id="alti-paved_emph-b" />
+		<overlay id="alti-settlements-b" />
+		<overlay id="alti-landscapefeat-b" />
+		<overlay id="alti-amenities-b" />
+		<overlay id="alti-barriers-b" />
+		<overlay id="alti-sports-b" />
+		<overlay id="alti-emergency-b" />
+		<overlay id="alti-accommodation-b" />
+		<overlay id="alti-restaurants-b" />
+		<overlay id="alti-shops-b" />
+		<overlay id="alti-tourism-b" />
+		<overlay id="alti-pubtrans-b" />
+		<overlay id="alti-car-b" />
+		<overlay id="alti-buildings-b" />
+		<overlay id="alti-borders-b" />
+		<overlay id="alti-background-b" />
 	</layer>
-	<layer id="elmt-mtb" visible="true">
+	<layer id="alti-mtb" visible="true">
 		<name lang="de" value="Mountainbike" />
 		<name lang="en" value="Mountain bike" />
 		<name lang="es" value="Bicicleta todo terreno" />
@@ -845,28 +845,28 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		<cat id="toll" />
 		<cat id="mtb" />
 		<cat id="smallways" />
-		<overlay id="elmt-mtbs_tracks" />
-		<overlay id="elmt-mtb_routes" />
-		<overlay id="elmt-mtb_c_routes" />
-		<overlay id="elmt-mtb_s_routes" />
-		<overlay id="elmt-road_surfaces-m" />
-		<overlay id="elmt-acc_allowed-m" />
-		<overlay id="elmt-mtb_sac_T1" />
-		<overlay id="elmt-settlements-m" />
-		<overlay id="elmt-landscapefeat-m" />
-		<overlay id="elmt-amenities-m" />
-		<overlay id="elmt-barriers-m" />
-		<overlay id="elmt-sports-m" />
-		<overlay id="elmt-emergency-m" />
-		<overlay id="elmt-accommodation-m" />
-		<overlay id="elmt-restaurants-m" />
-		<overlay id="elmt-shops-m" />
-		<overlay id="elmt-tourism-m" />
-		<overlay id="elmt-pubtrans-m" />
-		<overlay id="elmt-car-m" />
-		<overlay id="elmt-buildings-m" />
-		<overlay id="elmt-borders-m" />
-		<overlay id="elmt-background-m" />
+		<overlay id="alti-mtbs_tracks" />
+		<overlay id="alti-mtb_routes" />
+		<overlay id="alti-mtb_c_routes" />
+		<overlay id="alti-mtb_s_routes" />
+		<overlay id="alti-road_surfaces-m" />
+		<overlay id="alti-acc_allowed-m" />
+		<overlay id="alti-mtb_sac_T1" />
+		<overlay id="alti-settlements-m" />
+		<overlay id="alti-landscapefeat-m" />
+		<overlay id="alti-amenities-m" />
+		<overlay id="alti-barriers-m" />
+		<overlay id="alti-sports-m" />
+		<overlay id="alti-emergency-m" />
+		<overlay id="alti-accommodation-m" />
+		<overlay id="alti-restaurants-m" />
+		<overlay id="alti-shops-m" />
+		<overlay id="alti-tourism-m" />
+		<overlay id="alti-pubtrans-m" />
+		<overlay id="alti-car-m" />
+		<overlay id="alti-buildings-m" />
+		<overlay id="alti-borders-m" />
+		<overlay id="alti-background-m" />
 	</layer>
 </stylemenu>
 
@@ -1172,7 +1172,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 		</rule>
 		<rule e="way" k="os_open_data" v="crags" closed="yes">
  			<area fill="#D0D0D0" stroke="#B0B0B0" stroke-width="0.1" />
- 
+
 		</rule>
 		<rule e="way" k="os_open_data" v="crags" closed="no">
     			<line stroke="#D0D0D0" stroke-width="1" stroke-linecap="butt" />
@@ -3218,7 +3218,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 
 				</rule>
 				<rule e="any" k="bicycle" v="bic_designated">
-					<rule e="way" k="highway" v="path|footway|bridleway"> 
+					<rule e="way" k="highway" v="path|footway|bridleway">
 						<rule e="way" k="surface" v="~">
 							<line stroke="#3366FF" stroke-width="0.95" stroke-dasharray="31,3" stroke-linecap="butt" />
 							<rule e="any" k="mtb_scale|sac_scale" v="mtbs_1|mtbs_2|mtbs_3|mtbs_4|mtbs_5|mtbs_6|T2|T3|T4|T5|T6">
@@ -3260,7 +3260,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 					</rule>
 				</rule>
 				<rule e="any" cat="cw_ext" k="bicycle" v="bic_yes|bic_permissive|bic_destination|bic_permit">
-					<rule e="way" k="highway" v="path|footway|bridleway"> 
+					<rule e="way" k="highway" v="path|footway|bridleway">
 						<rule e="way" k="surface" v="~">
 							<line stroke="#3366FF" stroke-width="0.95" stroke-dasharray="31,3" stroke-linecap="butt" />
 							<rule e="any" k="mtb_scale|sac_scale" v="mtbs_1|mtbs_2|mtbs_3|mtbs_4|mtbs_5|mtbs_6|T2|T3|T4|T5|T6">
@@ -3409,7 +3409,7 @@ Please have a look at read_me_elevate.txt for reuse and licenses of resources us
 				<rule e="way" k="mtb_scale" v="~">
 					<rule e="way" k="bicycle" v="bic_yes|bic_designated|bic_permissive|bic_destination|bic_permit">
 						<rule e="any" k="mtb_scale_uphill|sac_scale" v="~|T1">
-							<rule e="way" k="highway" v="path|footway|bridleway"> 
+							<rule e="way" k="highway" v="path|footway|bridleway">
 								<rule e="way" k="surface" v="~">
 									<line stroke="#3366FF" stroke-width="0.95" stroke-dasharray="31,3" stroke-linecap="butt" />
 									<line stroke="#EEEEFF" stroke-width="0.5" stroke-dasharray="15,1,15,3" stroke-linecap="butt" />
