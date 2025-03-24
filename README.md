@@ -1,4 +1,4 @@
-### Alti
+# Alti
 
 Mapsforge render theme, with focus on altitude.
 
@@ -9,7 +9,8 @@ And landscape names (volcanos, mountain peaks, passes, saddles) copied of Desert
 All symbols/patterns/code are copies of these other themes. Alti doesn't contain anything else then copies of these themes.
 
 Therefore all credits to them:
--elements theme: Elevate theme family
+
+- elements theme: Elevate theme family
 https://www.openandromaps.org/kartenlegende/elevation-hike-theme
 by Tobias Kuehn, Contact: http://www.eartrumpet.net/contact/
 licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/
