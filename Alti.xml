@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-Elevate theme family
-********************
-including Elevate & Elements
+https://github.com/jhotadhari/Alti
 
-Version:
-5.5
+Mapsforge render theme, with focus on altitude.
 
-Mapsforge map style for OpenAndroMaps
-by Tobias Kuehn
-Contact: http://www.eartrumpet.net/contact/
+It's almost entirely a copy of the elements theme (symbols/patterns/code).
+But altitude lines copied of the andromaps_hike theme (code).
+And landscape names (volcanos, mountain peaks, passes, saddles) copied of Desert theme (symbols/code).
 
-License:
-********
+All symbols/patterns/code are copies of these other themes. Alti doesn't contain anything else then copies of these themes.
+
+Therefore all credits to them:
+
+- elements theme: Elevate theme family<br/>
+https://www.openandromaps.org/kartenlegende/elevation-hike-theme<br/>
+by Tobias Kuehn, Contact: http://www.eartrumpet.net/contact/<br/>
+licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/<br/>
+For commercial usage it is licensed under a Attribution-NoDerivatives 4.0 International License: https://creativecommons.org/licenses/by-nd/4.0/
+- andromaps_hike theme:<br/>
+https://www.openandromaps.org/kartenlegende/andromaps_hc<br/>
+by Christian Kernbeis / www.openandromaps.org<br/>
+licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License: http://creativecommons.org/licenses/by-nc-sa/3.0/
+- Desert theme:<br/>
+by Bernard Mai (contact: http://www.maiwolf.de/locus/)<br/>
+licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/<br/>
+For commercial usage it is licensed under a Attribution-NoDerivatives 4.0 International License: https://creativecommons.org/licenses/by-nd/4.0/
+
+## License:
 
 This map style is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/
-For commercial usage it is licensed under a Attribution-NoDerivatives 4.0 International License: https://creativecommons.org/licenses/by-nd/4.0/
-Please have a look at read_me_elevate.txt for reuse and licenses of resources used in this theme.
+
+Its not licensed for commercial usage because it's a copy of parts of other themes. And these themes require the whole contents to be included for commercial usage.
+
+For non-commercial usage you are free to reuse everything I made if you stick to those conditions:
+- attribute the origin and as well the origin of the themes, this theme is based of.
+- don't use it for commercial purposes, that means for example you are not allowed to include (also parts) or directly download with a commercial app; if in doubt contact me
 
 -->
 <rendertheme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" map-background="#F8F8F8"
